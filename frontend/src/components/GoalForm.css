@@ -1,0 +1,40 @@
+.goalForm {
+    text-align: center;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+   label{
+    margin-bottom: 10px;
+   }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  input {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  button {
+    width: 320px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1)
+  }
+  button:hover {
+    background-color: #0069d9;
+    border-radius: 10px;
+    transform: scale(0.97);
+    background-color: #0069d9;
+  }
